@@ -13,9 +13,6 @@ format: html
      
 ```
 
-Eunice Jiang
-Emil Chafigoulline
-
 ```         
 =======
 
