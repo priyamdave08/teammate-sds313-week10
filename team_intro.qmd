@@ -25,9 +25,19 @@ library(tidyverse)
 library(palmerpenguins)
 ```
 
-### Eunice — [Your Visualization, e.g. "Body Mass by Species"]
+### Eunice — [Box Plot, e.g. "Flipper Length by Species"]
 
 ```{r}
 # Make your agreed-upon plot here, e.g.:
 # penguins |> ggplot(aes(x = species, y = body_mass_g, fill = species)) + geom_boxplot()
+penguins |> 
+  ggplot(aes(x = species, y = flipper_length_mm, fill = species)) +
+  geom_boxplot() +
+  labs(
+    x = "Species",
+    y = "Flipper Length in mm",
+    title = "Penguin Species vs Flipper Length",
+    fill = "Species"
+  )
 ```
+
