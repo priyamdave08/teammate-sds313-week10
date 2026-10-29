@@ -25,7 +25,7 @@ library(tidyverse)
 library(palmerpenguins)
 ```
 
-### [Your Name] — [Your Visualization, e.g. "Body Mass by Species"]
+### Eunice — [Your Visualization, e.g. "Body Mass by Species"]
 
 ```{r}
 # Make your agreed-upon plot here, e.g.:
