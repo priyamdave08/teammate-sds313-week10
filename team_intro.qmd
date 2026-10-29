@@ -52,3 +52,17 @@ penguins |>
   geom_point(aes(color = species)) +
   theme_minimal()
 ```
+
+### Maxwell Yung — 
+
+```{r}
+ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
+  geom_point(na.rm = TRUE, size = 2) +
+  labs(
+    title = "Penguin Flipper Length vs. Body Mass",
+    x = "Flipper Length (mm)",
+    y = "Body Mass (g)",
+    color = "Species"
+  ) +
+  theme_minimal()
+```
