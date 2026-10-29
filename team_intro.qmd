@@ -9,6 +9,7 @@ format: html
 <!-- Everyone: add your name below, one per line. You will likely collide with a teammate
      editing this same list at the same time — that's expected, and it's your first real
      merge conflict. Resolve it together rather than one person overwriting the other. -->
+<<<<<<< HEAD
      
 ```
 
@@ -16,6 +17,16 @@ Eunice Jiang
 Emil Chafigoulline
 
 ```         
+=======
+
+Eunice Jiang      
+Emil Chafigoulline
+Oleg
+Emil Chafigoulline
+Maxwell Yung
+
+```
+>>>>>>> ad523e88c3701fb287eb862655c4c033c177efe6
 
 - 
 
