@@ -9,6 +9,15 @@ format: html
 <!-- Everyone: add your name below, one per line. You will likely collide with a teammate
      editing this same list at the same time — that's expected, and it's your first real
      merge conflict. Resolve it together rather than one person overwriting the other. -->
+<<<<<<< HEAD
+     
+```
+
+Eunice Jiang
+Emil Chafigoulline
+
+```         
+=======
 
 Eunice Jiang      
 Emil Chafigoulline
@@ -17,6 +26,7 @@ Emil Chafigoulline
 Maxwell Yung
 
 ```
+>>>>>>> ad523e88c3701fb287eb862655c4c033c177efe6
 
 - 
 
@@ -35,14 +45,23 @@ library(tidyverse)
 library(palmerpenguins)
 ```
 
-### Eunice — [Your Visualization, e.g. "Body Mass by Species"]
+### Eunice — \[Box Plot, e.g. "Flipper Length by Species"\]
 
 ```{r}
 # Make your agreed-upon plot here, e.g.:
 # penguins |> ggplot(aes(x = species, y = body_mass_g, fill = species)) + geom_boxplot()
+penguins |> 
+  ggplot(aes(x = species, y = flipper_length_mm, fill = species)) +
+  geom_boxplot() +
+  labs(
+    x = "Species",
+    y = "Flipper Length in mm",
+    title = "Penguin Species vs Flipper Length",
+    fill = "Species"
+  )
 ```
 
-### Emil Chafigoulline — Body Mass vs Bill Length by Species
+\### Emil Chafigoulline — Body Mass vs Bill Length by Species
 
 ```{r}
 penguins |> 
